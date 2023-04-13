@@ -1,14 +1,14 @@
-# c-m-s
+# cms
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Travis](https://img.shields.io/travis/gvsu-web-team/c-m-s.svg?style=flat-square)]()
-[![Total Downloads](https://img.shields.io/packagist/dt/gvsu-web-team/c-m-s.svg?style=flat-square)](https://packagist.org/packages/gvsu-web-team/c-m-s)
+[![Travis](https://img.shields.io/travis/gvsu-web-team/cms.svg?style=flat-square)]()
+[![Total Downloads](https://img.shields.io/packagist/dt/gvsu-web-team/cms.svg?style=flat-square)](https://packagist.org/packages/gvsu-web-team/cms)
 
 
 ## Install
 
 ```bash
-composer require gvsu-web-team/c-m-s
+composer require gvsu-web-team/cms
 ```
 
 
