@@ -42,7 +42,7 @@ class Content extends Model
 		'admin' => ''
 	];
 
-	 /**
+	/**
 	 * The attributes that are mass assignable.
 	 *
 	 * @var array

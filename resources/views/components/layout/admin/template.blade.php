@@ -1,7 +1,3 @@
-@php
-    $menu ?? [];
-@endphp
-{{ dd( config() ) }}
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
@@ -48,7 +44,7 @@
                     </ul>
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="">Logout</a>
+                            <a class="nav-link" href="{{ route('cms.admin.logout') }}">Logout</a>
                         </li>
                     </ul>
                 </div>

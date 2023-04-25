@@ -6,12 +6,14 @@ use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use GvsuWebTeam\Cms\Models\Site;
 
+use Illuminate\Support\Facades\Auth;
+
 class SiteController extends Controller
 {
 	/**
 	 * Display a listing of the resource.
 	 */
-	public function index()
+	public function index(Request $request)
 	{
 		$sites = Site::paginate(15);
 		return view('cms::admin.site.index', ['sites' => $sites]);

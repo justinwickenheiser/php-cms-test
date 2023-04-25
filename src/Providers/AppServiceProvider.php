@@ -9,7 +9,7 @@ class AppServiceProvider extends ServiceProvider
     protected $root = __DIR__.'/../..';
 
     protected $configFiles = [
-        'admin', 
+        'admin', 'auth', 
     ];
 
     /**

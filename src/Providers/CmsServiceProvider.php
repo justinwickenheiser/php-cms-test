@@ -12,7 +12,9 @@ class CmsServiceProvider extends ServiceProvider
      * @var array
      */
     protected $providers = [
-		AppServiceProvider::class,
+        AppServiceProvider::class,
+        AuthServiceProvider::class,
+		AdminServiceProvider::class,
     ];
 
     /**
